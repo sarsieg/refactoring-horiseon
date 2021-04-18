@@ -1,6 +1,8 @@
 # refactoring-horiseon
 
-We were asked to refactor the code of a website and to make sure that it meets accessibility standards and it easier to read. In order to imporve the readability of the code semantic tags were used to replace divs in index.html when possible. To meet accessibility standards alts were added after each image. The link to search engine optimization in the nav bar was fixed by adding an article id="search-engine-optimization". The css stylesheet was consolidated and css rules with repeated properties were removed.  A css reset was also added to make sure the page loads the same on all browsers. Comments were made throughout to mark any changes made.
+We were asked to refactor the code of a website and to make sure that it meets accessibility standards and it easier to read. In order to imporve the readability of the code semantic tags were used to replace divs in index.html when possible. To meet accessibility standards alts were added after each image. The link to search engine optimization in the nav bar was fixed by adding an article id="search-engine-optimization". The css stylesheet was consolidated and css rules with repeated properties were removed.  A css reset was also added to make sure the page loads the same on all browsers. Comments were made throughout to mark any changes made. Accessability was improved helping other coders to be able to read the coder easier. I learned how to make a clean cut and organzied code as well as have accessability throughout it.
+
+Link: https://sarsieg.github.io/refactoring-horiseon/ 
 
 License: 
 

@@ -22,14 +22,20 @@ header {
     color: #ffffff;
 }
 
+/* changed from class header h1 selector to just header h1 tag */
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changed from class header h1 .seo selector to just header h1 .seo tag */
+
 header h1 .seo {
     color: #d9dcd6;
 }
+
+/* changed from class header div selector to just header div tag */
 
 header div {
     padding-top: 15px;
@@ -39,9 +45,13 @@ header div {
     font-size: 20px;
 }
 
+/* changed from class header div ul selector to just header div ul tag */
+
 header div ul {
     list-style-type: none;
 }
+
+/* changed from class header div ul li selector to just header div ul li tag */
 
 header div ul li {
     display: inline-block;
@@ -93,6 +103,8 @@ p {
     background-color: #2589bd;
 }
 
+/* Consolidated .benefit-lead, .benefit-brand, .benefit-cost in css */
+/* Removed additional css repeated properties */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -100,6 +112,8 @@ p {
     color: #ffffff;
 }
 
+/* Consolidated .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 in css */
+/* Removed additional css repeated properties */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -107,7 +121,8 @@ p {
     text-align: center;
 }
 
-
+/* Consolidated .benefit-lead img, .benefit-brand img, .benefit-cost img in css */
+/* Removed additional css repeated properties */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -116,8 +131,8 @@ p {
     max-width: 150px;
 }
 
-/* consolidated CSS stuff */
-
+/* Consolidated .search-engine-optimization, .online-reputation-management, .social-media-marketing in css */
+/* Removed additional css repeated properties */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -129,35 +144,24 @@ p {
     color: #ffffff;
 }
 
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
+/* Consolidated .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img in css */
+/* Removed additional css repeated properties */
+.search-engine-optimization img,
+.online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Consolidated .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 in css */
+/* Removed additional css repeated properties */
+.search-engine-optimization h2,
+.online-reputation-management h2,
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* removed class selector, just focused on the tag instead */
+/* removed class selector, just focused on the footer tag instead */
 
 footer {
     padding: 30px;
@@ -165,6 +169,8 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* removed class selector, just focused on the footer h2 tag instead */
 
 footer h2 {
     font-size: 20px;
